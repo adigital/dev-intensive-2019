@@ -5,10 +5,9 @@ import ru.skillbranch.devintensive.extensions.shortFormat
 import ru.skillbranch.devintensive.extensions.truncate
 import ru.skillbranch.devintensive.models.BaseMessage
 import ru.skillbranch.devintensive.models.ImageMessage
-import ru.skillbranch.devintensive.models.TextMessage
+import ru.skillbranch.devintensive.extensions.TextMessage
 import ru.skillbranch.devintensive.utils.Utils
 import java.util.*
-import kotlin.reflect.typeOf
 
 data class Chat(
     val id: String,
